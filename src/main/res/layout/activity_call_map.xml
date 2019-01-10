@@ -33,5 +33,26 @@
             android:layout_height="wrap_content"
             android:onClick="displayMap1"
             android:text="OK" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="displayMap2"
+            android:text="ค้นหาร้านอาหารใกล้เคียง" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="displayMap3"
+            android:text="ค้นหาร้านอาหารใกล้ม.วงษ์" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="displayMap4"
+            android:text="ร้านอาหารใกล้ม.วงษ์ 10 km" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
