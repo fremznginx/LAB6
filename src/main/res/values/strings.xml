@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">LAB6</string>
+    <string name="callwebview">CALL WEBVIEW</string>
+    <string name="callphone">CALL PHONE</string>
+    <string name="callmap">CALL MAP</string>
+</resources>
