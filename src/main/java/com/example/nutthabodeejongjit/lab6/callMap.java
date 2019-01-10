@@ -44,4 +44,22 @@ public class callMap extends AppCompatActivity {
         mapIntent.setPackage("com.google.android.apps.maps");
         startActivity(mapIntent);
     }
+    public void displayMap5(View view){
+        Uri gmmIntentUri = Uri.parse("geo:0,0?q=Vongchavalitkul, University, Thailand");
+        Intent mapIntent =  new Intent(Intent.ACTION_VIEW,gmmIntentUri);
+        mapIntent.setPackage("com.google.android.apps.maps");
+        startActivity(mapIntent);
+    }
+    public void displayMap6(View view){
+        Uri gmmIntentUri = Uri.parse("google.navigation:?q=Terminal21, +Korat+Thailand");
+        Intent mapIntent =  new Intent(Intent.ACTION_VIEW,gmmIntentUri);
+        mapIntent.setPackage("com.google.android.apps.maps");
+        startActivity(mapIntent);
+    }
+    public void displayMap7(View view){
+        Uri gmmIntentUri = Uri.parse("google.streetview:cbll=15.0016508,102.1189107");
+        Intent mapIntent =  new Intent(Intent.ACTION_VIEW,gmmIntentUri);
+        mapIntent.setPackage("com.google.android.apps.maps");
+        startActivity(mapIntent);
+    }
 }
